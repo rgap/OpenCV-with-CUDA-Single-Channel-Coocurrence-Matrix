@@ -1,0 +1,16 @@
+﻿Compilación iniciada a las 15/10/2012 20:59:43.
+     1>Proyecto "c:\Users\rgap\documents\visual studio 2010\Projects\CoocurrenceMatrix\CoocurrenceMatrix\CoocurrenceMatrix.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Debug\CoocurrenceMatrix.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/opencv/build/include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\rgap\documents\visual studio 2010\projects\coocurrencematrix\coocurrencematrix\scm.h(38): error C2146: error de sintaxis : falta ';' delante del identificador 'imagen'
+     1>c:\users\rgap\documents\visual studio 2010\projects\coocurrencematrix\coocurrencematrix\scm.h(38): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\rgap\documents\visual studio 2010\projects\coocurrencematrix\coocurrencematrix\scm.h(38): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\rgap\documents\visual studio 2010\projects\coocurrencematrix\coocurrencematrix\main.cpp(4): error C2143: error de sintaxis : falta ';' delante de 'using'
+     1>Compilación del proyecto terminada "c:\Users\rgap\documents\visual studio 2010\Projects\CoocurrenceMatrix\CoocurrenceMatrix\CoocurrenceMatrix.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:01.50

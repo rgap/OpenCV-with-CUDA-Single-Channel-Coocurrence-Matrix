@@ -1,0 +1,34 @@
+﻿Compilación iniciada a las 28/11/2012 01:15:48 p.m..
+     1>Proyecto "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\CoocurrenceMatrix.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "x64\Release\CoocurrenceMatrix.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       AddCudaCompileDeps:
+       Se omitirá el destino "AddCudaCompileDeps" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       AddCudaCompilePropsDeps:
+       Se omitirá el destino "AddCudaCompilePropsDeps" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CudaBuild:
+       Se omitirá el destino "CudaBuild" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt image.cpp
+         image.cpp
+     1>image.cpp(30): warning C4101: 'j' : variable local sin referencia
+     1>image.cpp(125): warning C4244: '=' : conversión de 'float' a 'uchar'; posible pérdida de datos
+     1>image.cpp(126): warning C4244: '=' : conversión de 'float' a 'uchar'; posible pérdida de datos
+     1>image.cpp(127): warning C4244: '=' : conversión de 'float' a 'uchar'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\x64\Release\CoocurrenceMatrix.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib\x64" cudart.lib opencv_calib3d242.lib opencv_contrib242.lib opencv_core242.lib opencv_features2d242.lib opencv_flann242.lib opencv_gpu242.lib opencv_haartraining_engine.lib opencv_highgui242.lib opencv_imgproc242.lib opencv_legacy242.lib opencv_ml242.lib opencv_nonfree242.lib opencv_objdetect242.lib opencv_photo242.lib opencv_stitching242.lib opencv_ts242.lib opencv_video242.lib opencv_videostab242.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\CoocurrenceMatrix.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\x64\Release\CoocurrenceMatrix.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\x64\Release\CoocurrenceMatrix.lib" /MACHINE:X64 x64\Release\main.cu.obj
+         x64\Release\image.obj
+         x64\Release\SCM.obj
+         Generando código
+         Generación de código finalizada
+         CoocurrenceMatrix.vcxproj -> C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\x64\Release\CoocurrenceMatrix.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\x64\Release\CoocurrenceMatrix.exe;#1" /manifest x64\Release\CoocurrenceMatrix.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "x64\Release\CoocurrenceMatrix.unsuccessfulbuild".
+         Aplicando tarea Touch a "x64\Release\CoocurrenceMatrix.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\CoocurrenceMatrix.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.61

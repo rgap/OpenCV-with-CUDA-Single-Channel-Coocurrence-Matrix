@@ -1,0 +1,148 @@
+﻿Compilación iniciada a las 19/12/2012 09:57:27 a.m..
+     1>Proyecto "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\CoocurrenceMatrix.vcxproj" en el nodo 2 (rebuild destinos).
+     1>_PrepareForClean:
+         Se eliminará el archivo "x64\Debug\CoocurrenceMatrix.lastbuildstate".
+       CudaClean:
+         cmd.exe /C "C:\Users\Rivalino\AppData\Local\Temp\b310937208a346a397914e376d749d27.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "x64\Debug" -maxrregcount=0  --machine 64 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "x64\Debug\SCM_GPU.cu.obj" "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\SCM_GPU.cu" -clean
+         
+         C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "x64\Debug" -maxrregcount=0  --machine 64 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "x64\Debug\SCM_GPU.cu.obj" "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\SCM_GPU.cu" -clean 
+         Se eliminará el archivo "x64\Debug\SCM_GPU.cu.deps".
+       CudaClean:
+         cmd.exe /C "C:\Users\Rivalino\AppData\Local\Temp\cee8b6ec503b4964b00a33998ce1076a.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "x64\Debug" -maxrregcount=0  --machine 64 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "x64\Debug\main.cu.obj" "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\main.cu" -clean
+         
+         C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "x64\Debug" -maxrregcount=0  --machine 64 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "x64\Debug\main.cu.obj" "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\main.cu" -clean 
+         Se eliminará el archivo "x64\Debug\main.cu.deps".
+       InitializeBuildStatus:
+         Se creará "x64\Debug\CoocurrenceMatrix.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include" /I. /FIcuda_runtime.h /c C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\SCM_GPU.cu 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include" /I. /FIcuda_runtime.h /c C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\main.cu 
+       AddCudaCompilePropsDeps:
+         Se encontró "CudaToolkitCustomDir".
+         Se encontró "AdditionalDeps".
+         Se encontró "CompileOut".
+         Se encontró "Include".
+         Se encontró "Keep".
+         Se encontró "KeepDir".
+         Se encontró "NvccCompilation".
+         Se encontró "NvccPath".
+         Se encontró "RequiredIncludes".
+         Se encontró "TargetMachinePlatform".
+         Se encontró "CInterleavedPTX".
+         Se encontró "CodeGeneration".
+         Se encontró "GPUDebugInfo".
+         Se encontró "MaxRegCount".
+         Se encontró "PtxAsOptionV".
+         Se encontró "AdditionalCompilerOptions".
+         Se encontró "Defines".
+         Se encontró "Emulation".
+         Se encontró "HostDebugInfo".
+         Se encontró "FastMath".
+         Se encontró "Optimization".
+         Se encontró "Runtime".
+         Se encontró "RuntimeChecks".
+         Se encontró "TypeInfo".
+         Se encontró "Warning".
+         Se encontró "AdditionalOptions".
+         Se encontró "CommandLineTemplate".
+       AddCudaCompilePropsDeps:
+         Se encontró "CudaToolkitCustomDir".
+         Se encontró "AdditionalDeps".
+         Se encontró "CompileOut".
+         Se encontró "Include".
+         Se encontró "Keep".
+         Se encontró "KeepDir".
+         Se encontró "NvccCompilation".
+         Se encontró "NvccPath".
+         Se encontró "RequiredIncludes".
+         Se encontró "TargetMachinePlatform".
+         Se encontró "CInterleavedPTX".
+         Se encontró "CodeGeneration".
+         Se encontró "GPUDebugInfo".
+         Se encontró "MaxRegCount".
+         Se encontró "PtxAsOptionV".
+         Se encontró "AdditionalCompilerOptions".
+         Se encontró "Defines".
+         Se encontró "Emulation".
+         Se encontró "HostDebugInfo".
+         Se encontró "FastMath".
+         Se encontró "Optimization".
+         Se encontró "Runtime".
+         Se encontró "RuntimeChecks".
+         Se encontró "TypeInfo".
+         Se encontró "Warning".
+         Se encontró "AdditionalOptions".
+         Se encontró "CommandLineTemplate".
+       CudaBuild:
+         Compiling CUDA source file SCM_GPU.cu...
+         cmd.exe /C "C:\Users\Rivalino\AppData\Local\Temp\1f511b0b2afd49d5b10f80585a7859bb.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "x64\Debug" -maxrregcount=0  --machine 64 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "x64\Debug\SCM_GPU.cu.obj" "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\SCM_GPU.cu"
+         
+         C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "x64\Debug" -maxrregcount=0  --machine 64 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "x64\Debug\SCM_GPU.cu.obj" "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\SCM_GPU.cu" 
+         SCM_GPU.cu
+     1>C:/Users/Rivalino/Desktop/FINALES/CoocurrenceMatrix/CoocurrenceMatrix/SCM_GPU.cu(125): warning : variable "posx" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/FINALES/CoocurrenceMatrix/CoocurrenceMatrix/SCM_GPU.cu(125): warning : variable "posy" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/FINALES/CoocurrenceMatrix/CoocurrenceMatrix/SCM_GPU.cu(125): warning : variable "i" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/FINALES/CoocurrenceMatrix/CoocurrenceMatrix/SCM_GPU.cu(125): warning : variable "j" was declared but never referenced
+         
+         tmpxft_000011d8_00000000-0_SCM_GPU.cudafe1.gpu
+         tmpxft_000011d8_00000000-5_SCM_GPU.cudafe2.gpu
+         SCM_GPU.cu
+     1>C:/Users/Rivalino/Desktop/FINALES/CoocurrenceMatrix/CoocurrenceMatrix/SCM_GPU.cu(125): warning : variable "posx" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/FINALES/CoocurrenceMatrix/CoocurrenceMatrix/SCM_GPU.cu(125): warning : variable "posy" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/FINALES/CoocurrenceMatrix/CoocurrenceMatrix/SCM_GPU.cu(125): warning : variable "i" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/FINALES/CoocurrenceMatrix/CoocurrenceMatrix/SCM_GPU.cu(125): warning : variable "j" was declared but never referenced
+         
+         tmpxft_000011d8_00000000-0_SCM_GPU.cudafe1.cpp
+         tmpxft_000011d8_00000000-11_SCM_GPU.ii
+       CudaBuild:
+         Compiling CUDA source file main.cu...
+         cmd.exe /C "C:\Users\Rivalino\AppData\Local\Temp\ed06bf20f76c45b09b74df0560692621.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "x64\Debug" -maxrregcount=0  --machine 64 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "x64\Debug\main.cu.obj" "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\main.cu"
+         
+         C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "x64\Debug" -maxrregcount=0  --machine 64 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "x64\Debug\main.cu.obj" "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\main.cu" 
+         main.cu
+     1>c:\users\rivalino\desktop\finales\coocurrencematrix\coocurrencematrix\imgOperaciones.h(13): warning : variable "rows" was declared but never referenced
+         
+     1>c:\users\rivalino\desktop\finales\coocurrencematrix\coocurrencematrix\imgOperaciones.h(36): warning : variable "rows" was declared but never referenced
+         
+         tmpxft_00000aa4_00000000-0_main.cudafe1.gpu
+         tmpxft_00000aa4_00000000-5_main.cudafe2.gpu
+         main.cu
+     1>c:\users\rivalino\desktop\finales\coocurrencematrix\coocurrencematrix\imgOperaciones.h(13): warning : variable "rows" was declared but never referenced
+         
+     1>c:\users\rivalino\desktop\finales\coocurrencematrix\coocurrencematrix\imgOperaciones.h(36): warning : variable "rows" was declared but never referenced
+         
+         tmpxft_00000aa4_00000000-0_main.cudafe1.cpp
+         tmpxft_00000aa4_00000000-11_main.ii
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt image.cpp SCM.cpp
+         SCM.cpp
+         image.cpp
+     1>image.cpp(30): warning C4101: 'j' : variable local sin referencia
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\x64\Debug\CoocurrenceMatrix.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib\x64" cuda.lib cudart.lib opencv_calib3d242d.lib opencv_contrib242d.lib opencv_core242d.lib opencv_features2d242d.lib opencv_flann242d.lib opencv_gpu242d.lib opencv_haartraining_engined.lib opencv_highgui242d.lib opencv_imgproc242d.lib opencv_legacy242d.lib opencv_ml242d.lib opencv_nonfree242d.lib opencv_objdetect242d.lib opencv_photo242d.lib opencv_stitching242d.lib opencv_ts242d.lib opencv_video242d.lib opencv_videostab242d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\CoocurrenceMatrix.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\x64\Debug\CoocurrenceMatrix.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\x64\Debug\CoocurrenceMatrix.lib" /MACHINE:X64 x64\Debug\SCM_GPU.cu.obj
+         x64\Debug\main.cu.obj
+         x64\Debug\image.obj
+         x64\Debug\SCM.obj
+         CoocurrenceMatrix.vcxproj -> C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\x64\Debug\CoocurrenceMatrix.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\x64\Debug\CoocurrenceMatrix.exe;#1" /manifest x64\Debug\CoocurrenceMatrix.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "x64\Debug\CoocurrenceMatrix.unsuccessfulbuild".
+         Aplicando tarea Touch a "x64\Debug\CoocurrenceMatrix.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Rivalino\Desktop\FINALES\CoocurrenceMatrix\CoocurrenceMatrix\CoocurrenceMatrix.vcxproj" (rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:01:39.26
